@@ -15,10 +15,19 @@
 
         <!-- Collego il file censored.php al form tramite action -->
         <form action="./censored.php" class="container" method="GET">
+
+            <h1 class="text-center mt-5">FORM</h1>
+
             <!-- TEXT -->
             <div class="mb-3 text-center">
-                <label for="phrase" class="form-label mt-5 mb-4 h2">FORM</label>
-                <input class="form-control" type="text" placeholder="Write a phrase" aria-label="default input example" value="Sto morendo di fame" id="phrase" name="newPhrase">
+                <label for="phrase" class="form-label mt-5 mb-4 h2">Write a paragraph</label>
+                <input class="form-control" type="text" placeholder="Write a paragraph" aria-label="default input example" id="phrase" name="newPhrase">
+            </div>
+
+            <!-- PAROLA DA CENSURARE -->
+            <div class="mb-3 text-center">
+                <label for="censure" class="form-label mt-5 mb-4 h2">Write a word to censor</label>
+                <input class="form-control" type="text" placeholder="Write one word of the paragraph to be censored" aria-label="default input example" id="censure" name="censoredWord">
             </div>
 
             <!-- BUTTONS -->
@@ -27,19 +36,7 @@
                 <input class="btn btn-warning" type="reset" value="Reset">
             </div>
         </form>
-
-        <div>
-            <!-- Stampo la frase che ha digitato l'utente -->
-            <p>
-
-            </p>
-
-
-            <!-- Stampo la frase che ha digitato l'utente CON CENSURA -->
-            <p>
-
-            </p>
-        </div>
+        
     </main>
 
 </body>
