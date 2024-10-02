@@ -20,6 +20,7 @@
         <div class="container text-center mt-5">
             <h3 class="mt-5">Frase SENZA censura</h3>
             <p class="h4"> <?php echo $name; ?> </p>
+            <p class="h5">La lunghezza della tua frase è di: <?php echo strlen($name); ?> </p>
         </div>
 
         <div class="container text-center mt-5">
