@@ -15,11 +15,13 @@
 
         <!-- Collego il file censored.php al form tramite action -->
         <form action="./censored.php" class="container">
+            <!-- TEXT -->
             <div class="mb-3 text-center">
                 <label for="phrase" class="form-label mt-5 mb-4 h2">FORM</label>
                 <input class="form-control" type="text" placeholder="Write a phrase" aria-label="default input example" id="phrase">
             </div>
 
+            <!-- BUTTONS -->
             <div class="text-end">
                 <input class="btn btn-primary me-2" type="submit" value="Submit">
                 <input class="btn btn-warning" type="reset" value="Reset">
