@@ -18,7 +18,7 @@
             <!-- TEXT -->
             <div class="mb-3 text-center">
                 <label for="phrase" class="form-label mt-5 mb-4 h2">FORM</label>
-                <input class="form-control" type="text" placeholder="Write a phrase" aria-label="default input example" id="phrase">
+                <input class="form-control" type="text" placeholder="Write a phrase" aria-label="default input example" id="phrase" name="newPhrase">
             </div>
 
             <!-- BUTTONS -->
